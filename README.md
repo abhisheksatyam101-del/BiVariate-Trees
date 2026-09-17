@@ -80,15 +80,5 @@ Running `main.py` will:
 
 ---
 
-## 🎓 Seminar Presentation Guide
-
-When presenting to your professor/evaluators:
-1. **Explain the Motivation:** Show how axis-aligned CART produces a "staircase" approximation for diagonal boundaries.
-2. **Explain BiCART:** Detail how searching pairs of features ($\binom{D}{2}$) and discrete orientations ($H$) allows greedy bivariate splits.
-3. **Explain BiTAO:** Show how TAO optimizes node decision rules alternatingly while guaranteeing non-increasing objective loss.
-4. **Show Visual Interpretability:** Demonstrate 2D scatter plots of node splits showing how bivariate decision lines separate feature pairs.
-
----
-
 ## 📜 References
 - Rasul Kairgeldin and Miguel Á. Carreira-Perpiñán. *Bivariate Decision Trees: Smaller, Interpretable, More Accurate*. ACM SIGKDD 2024.
