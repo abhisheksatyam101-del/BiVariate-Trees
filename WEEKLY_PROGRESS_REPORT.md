@@ -88,40 +88,62 @@ The table below summarizes the quantitative evaluation results obtained from the
 
 ---
 
-## 📷 Screenshots & Execution Evidence (Placeholders)
+## 📷 Code Execution Evidence, Performance Graphs & Figures
 
-### 1. Code Execution & Terminal Output
-> **[INSERT SCREENSHOT: Terminal execution output of `python main.py` showing printed evaluation tables for CART, BiCART, and BiTAO]**  
-![Terminal Execution Output](results/figures/summary_table.png)
-
----
-
-### 2. Performance Comparison Graphs
-> **[INSERT SCREENSHOT: Test Accuracy & F1-Score comparison bar charts]**  
-![Accuracy Comparison Graph](results/figures/accuracy_comparison.png)  
-![F1 Score Comparison Graph](results/figures/f1_comparison.png)
+### 1. Geometric Concept & Bivariate Split Illustration
+![Bivariate Split Illustration](results/figures/bivariate_split_illustration.png)
+*Figure 1: Geometric comparison showing how 2D tilted lines (bivariate splits) replace deep sequences of axis-aligned CART splits.*
 
 ---
 
-### 3. Tree Size & Node Reduction Graph
-> **[INSERT SCREENSHOT: Tree node count and depth comparison graph]**  
+### 2. Code Execution & Terminal Benchmark Output
+![Terminal Execution Benchmark Summary](results/figures/summary_table.png)
+*Figure 2: Terminal execution benchmark summary table produced by running `main.py`.*
+
+---
+
+### 3. Classification Accuracy & F1-Score Performance Comparison
+![Test Accuracy Comparison Graph](results/figures/accuracy_comparison.png)
+*Figure 3: Test Classification Accuracy comparison across Standard CART (91.23%), BiCART (97.37%), and BiTAO (93.86%).*
+
+![Macro F1-Score Comparison Graph](results/figures/f1_comparison.png)
+*Figure 4: Macro F1-Score comparison across models.*
+
+---
+
+### 4. Tree Size & Depth Reduction Comparison
 ![Tree Size Comparison Graph](results/figures/tree_size_comparison.png)
+*Figure 5: Total tree node count and depth comparison showing 54% node reduction in BiCART and 92% node reduction in BiTAO.*
 
 ---
 
-### 4. Confusion Matrices
-> **[INSERT SCREENSHOT: Confusion matrices for CART, BiCART, and BiTAO]**  
-| CART Confusion Matrix | BiCART Confusion Matrix | BiTAO Confusion Matrix |
+### 5. Confusion Matrices
+| Standard CART Confusion Matrix | BiCART Confusion Matrix | BiTAO Confusion Matrix |
 | :---: | :---: | :---: |
 | ![CART CM](results/figures/cm_confusion_matrix__cart.png) | ![BiCART CM](results/figures/cm_confusion_matrix__bicart.png) | ![BiTAO CM](results/figures/cm_confusion_matrix__bitao.png) |
 
+*Figure 6: Confusion matrices for Standard CART, BiCART, and BiTAO classifiers.*
+
 ---
 
-### 5. 2D Decision Boundary Plots
-> **[INSERT SCREENSHOT: 2D scatter plots showing learned decision boundaries]**  
+### 6. 2D Scatter Plot Decision Boundaries
 | Standard CART Boundary | BiCART Boundary | BiTAO Boundary |
 | :---: | :---: | :---: |
 | ![CART Boundary](results/figures/boundary_cart.png) | ![BiCART Boundary](results/figures/boundary_bicart.png) | ![BiTAO Boundary](results/figures/boundary_bitao.png) |
+
+*Figure 7: 2D scatter plots of learned decision boundaries projecting samples onto feature pairs.*
+
+---
+
+### 7. BiTAO Optimization Loss Convergence Curve
+![BiTAO Loss Convergence Curve](results/figures/bitao_convergence.png)
+*Figure 8: Global loss objective $E(\mathbf{\Theta})$ convergence during BiTAO alternating optimization.*
+
+---
+
+### 8. Training Time Comparison
+![Training Time Comparison Graph](results/figures/training_time.png)
+*Figure 9: Training run-time comparison in seconds.*
 
 ---
 
