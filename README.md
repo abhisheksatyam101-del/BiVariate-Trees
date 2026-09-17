@@ -22,6 +22,9 @@ This repository contains a full, standalone Python implementation of both algori
 
 ```
 SEMINAR/
+├── paper/                      # Base Research Paper (PDF & metadata)
+│   ├── Bivariate_Decision_Trees_KDD2024.pdf
+│   └── README.md
 ├── main.py                     # Main experiment pipeline runner
 ├── requirements.txt            # Python dependencies (numpy, scikit-learn, matplotlib, seaborn)
 ├── seminar_report.md           # Comprehensive B.Tech seminar research report
