@@ -34,3 +34,6 @@ Thumbs.db
 
 # Temporary & cache
 create_notebook.py
+generate_pdf_report.py
+*.pdf
+!paper/Bivariate_Decision_Trees_KDD2024.pdf
