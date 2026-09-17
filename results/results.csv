@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1,Total_Nodes,Depth,Bivariate_Nodes,Features_Used,Train_Time,Pred_Time
+CART,0.9123,0.9019,0.9157,0.9075,37,7,0,13,2.2009,0.0003
+BiCART,0.9737,0.9667,0.9792,0.9721,17,5,7,11,10.1160,0.0003
+BiTAO,0.9386,0.9300,0.9415,0.9349,3,4,1,2,17.9547,0.0001
